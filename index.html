@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prachet Nandan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Prachet Nandan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Prachet Nandan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/pp.jpg" alt="Prachet Nandan profile picture" class="profile-pic" />
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Prachet Nandan</h1>
+            <p class="section_text_p2">Fontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/prachet-nandan/' ">
+
+                <img src="./assets/github.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://github.com/Prachet-Srivastava' ">
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/ap1.jpg" alt="Profile Picture" class="about-pic">
+
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/wd.png" alt="Experience Icon" class="icon">
+                        <h3>Web Developer</h3>
+                      
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/gd.png" alt="Education Icon" class="icon">
+                        <h3>Graphic Designer</h3>
+                       
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/ad.png" alt="Education Icon" class="icon">
+                        <h3>App Developer</h3>
+                       
+                    </div>
+
+                </div>
+                <div class="text-container">
+                    <p>
+                        I’m a frontend developer, graphic designer, and app developer with a passion for crafting
+                        visually appealing and user-friendly experiences. I specialize in creating responsive websites
+                        and intuitive applications, blending design with functionality. My goal is to bring ideas to
+                        life through innovative solutions. When I’m not coding, I love exploring design trends and
+                        working on personal projects. Let’s connect and collaborate to turn your vision into reality!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href = '#skills'">
+
+    </section>
+
+    <section id="skills">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>React&emsp;&emsp;</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+
+                                <h3>NodeJS&emsp;</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">App Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Flutter</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Firebase</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Ui/Ux</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Dart </h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href = '#projects'">
+        
+    </section>
+
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Project</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/FanMania.png" alt="Project Weather App" class="project-img">
+                    </div>
+                    
+                    <h2 class="experience-sub-title project-title">FanMania</h2>
+                    
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Prachet-Srivastava/FanMania','_blank'">Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1MEF9-CLaiGQX2AUuQ-bbmFp2w-cYBGFO/view?usp=drivesdk'">
+                            Demo
+                        </button>
+
+
+                    </div>
+
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/tdList.png" alt="ToDo List" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">ToDo List</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Prachet-Srivastava/To-Do-List/'">Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://prachet-srivastava.github.io/To-Do-List/'">Live
+                            Demo
+                        </button>
+
+
+                    </div>
+
+                </div>
+                
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/qa.png" alt="Project Weather App" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Quiz App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Prachet-Srivastava/Quiz-App'">Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://prachet-srivastava.github.io/Quiz-App'">Live
+                            Demo
+                        </button>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="about-containers">
+
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/na.png" alt="ToDo List" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Notes App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Prachet-Srivastava/Notes'">Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://prachet-srivastava.github.io/Notes'">Live
+                            Demo
+                        </button>
+
+
+                    </div>
+
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/movieDesign.png" alt="Project Weather App" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Movie Ticket App</h2>
+                    <div class="btn-container">
+                       
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://www.figma.com/proto/YQImYv8QJhqgI2UUI0rfEW/Movie-Ticket-Booking?node-id=11-5&starting-point-node-id=11%3A5&t=TbSleLf6FvdhSz3q-1'">
+                            Demo
+                        </button>
+
+
+                    </div>
+
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/WApp1.png" alt="Project Weather App" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Weather App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Prachet-Srivastava/WeatherApp'">Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://prachet-srivastava.github.io/WeatherApp/'">Live
+                            Demo
+                        </button>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href = '#contact'">
+
+    </section>
+
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Phone Icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:prachetsrivastava065@gmail.com">prachetsrivastava065@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Linkedin Icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/prachet-nandan/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Prachet Nandan. All Right Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
